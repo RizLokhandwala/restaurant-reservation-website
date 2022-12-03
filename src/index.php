@@ -70,7 +70,7 @@
                 <div class="footer_nav_links"><a href="./reservation.php">Reserve Table</a></div>
                 <div class="footer_nav_links"><a href="./about.html">About Us</a></div>
                 <div class="footer_nav_links"><a href="contactUs.html">Contact Us</a></div>
-                <div class="footer_nav_links"><a href="https://project4351.scm.azurewebsites.net/dev/wwwroot/">Source Code</a></div>
+                <div class="footer_nav_links"><a href="https://github.com/RizLokhandwala/restaurant-reservation-website>Source Code</a></div>
             </div>
         </div>
 
