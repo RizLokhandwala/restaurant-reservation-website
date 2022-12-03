@@ -1,0 +1,265 @@
+body {
+  background-color: #cbd1d6;
+}
+.dropbtn {
+  background-color: rgb(51, 68, 85);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* New stuff starts here */
+a {
+  color: #474f61;
+}
+p {
+  margin:0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.main {
+  background-color: #cbd1d6;
+	height: 1100px;
+}
+.center_piece {
+  margin-left:25%;
+  margin-right:25%;
+  width:50%;
+  height: auto;
+}
+
+.cancel {
+  background-color: #a2adba;
+  text-align: right;
+  font-size: 14px;
+  height: 3em;
+  margin-bottom: 0;
+  color: #474f61;
+}
+  .cancel_link_holder {
+    padding-top:10px;
+    padding-right: 10px;
+  }
+    #top_cancel_link {
+      padding-top: 10px;
+      bottom: 10px;
+      color: #474f61;
+    }
+    #top_cancel_link:hover {
+      color: white;
+    }
+  
+a:hover {
+    color: white;
+  }
+
+.title_piece {
+  background-color: #474f61;
+  color: white;
+  weight: 100;
+  font-size: 23px;
+  height: 3em;
+  margin-top: 0;
+  text-align: center;
+}
+  .title_word_holder {
+    padding-top: 20px;
+  }
+.photos {
+  height:16em;
+  background-color: black;
+}
+
+.location_stuff {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  margin-bottom: 20px;
+  color: #474f61;
+  padding-bottom: 40px;
+}
+  .store_title {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    weight: 900;
+    font-size: 22px;
+  }
+  .store_info {
+    font-size: 14px;
+  }
+  #change_location_button {
+    width: 20em;
+    height: 3em;
+    background-color: #474f61;
+    color: white;
+    margin-top: 30px;
+    margin-left: 186px;
+    cursor: pointer;
+    border: 3px groove black;
+  }
+
+.preferences {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
+  width: 50%;
+  color: #474f61;
+  padding-bottom: 40px;
+}
+  #date_input {
+    width: 20em;
+    height:2.3em;
+    text-align:left;
+    background-color:#474f61;
+    color: white;
+  }
+  .preferred_button {
+    width: 16em;
+    height: 2.5em;
+    text-align: left;
+    background-color: #474f61;
+    color: white;
+  }
+  
+
+.available {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  color: #474f61;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.date {
+  width: 40%;
+}
+
+.guests {
+  width: 30%;
+}
+
+.time {
+  width: 30%;
+}
+
+.table_slot {
+  width: 24%;
+  margin-left: 7%;
+  height: 3em;
+  font:18px;
+  padding-bottom: 40px;
+  
+}
+  select {
+    width: 100%;
+    height: 2.5em;
+    background-color: #b6bec6;
+    border: 1px solid #77808a;
+  }
+  .table_slot .active {
+    background-color: #a2adba;
+  }
+
+.info {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  color: white;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+  .info label {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .info_input {
+    width: 28em;
+    height: 2.5em;
+    background-color: #474f61;
+    margin-right: 30px;
+    color: white;
+  }
+  .info_top {
+    margin-bottom: 10px;
+  }
+
+.finalize {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 50px;
+  width: 50%;
+  text-align: right;
+  color: #474f61;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #cbd1d6;
+}
+  .finalize button {
+    width: 10em;
+    height: 2em;
+    color: white;
+    background-color: #474f61;
+  }
+
+
+.cancel_link {
+  color: #474f61;
+  padding-right: 10px;
+}
+
+.even_more_blank_space {
+  height: 20px;
+  background-color: #cbd1d6;
+}

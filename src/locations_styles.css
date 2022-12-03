@@ -1,0 +1,75 @@
+/* Set the size of the div element that contains the map */
+
+#map {
+  height: 757px;
+  width: 1400px;
+}
+
+body {
+  width: 1900px;
+}
+
+.find_restaraunt {
+  height:757px;
+  width:450px;
+  padding: 1.5%;
+  padding-top: 0;
+  background-color:rgb(8, 48, 61);
+  color: white;
+
+
+}
+  .find_restaraunt h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+    width: 450px;
+  }
+  .find_restaraunt p {
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 0;
+  }
+.tab {
+}
+
+.tab button {
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+  transition:0.1s;
+  font-weight: 900;
+  padding: 5px;
+  background-color:inherit;
+}
+
+.tab button.active {
+  border-bottom: 3px solid crimson;
+  color: crimson;
+}
+
+.tab_links {
+  border: none;
+  width: 47.5%;
+  font-size: 16px;
+}
+
+.search_bar {
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 25em;
+  height: 3em;
+  font-size: 16px;
+  border:'none';
+}
+
+.title {
+  color: crimson;
+}
+
+footer {
+  width: 1900px;
+}
+.about {
+  width: 1900px;
+}

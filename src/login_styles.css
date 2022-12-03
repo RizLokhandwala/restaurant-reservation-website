@@ -1,0 +1,93 @@
+.login_layer {
+    background-color:rgb(51, 68, 85);
+    height: 760px;
+}
+    .create_account {
+        margin-top: 50px;
+        height:450px;
+        padding: 2em 2em;
+        width: 25%;
+        margin-left: 20%;
+        background-color: aliceblue;
+        border-top: 2px groove white;
+        border-bottom: 2px groove white;
+        border-left: 2px groove white;
+    }
+        .create_why {
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        .register_button {
+            margin-top: 7em;
+            float:left;
+            margin-left: 80px;
+            padding: 0.5em 5em;
+            font-size: 16px;
+            color:darkred;
+            font-weight: 900;
+            background-color: white;
+            border-radius: 5px;
+            border: 2px solid darkred;
+        }
+
+    .middle_line {
+        margin-top: 50px;
+        width: 20px;
+        height: 514px;
+        background: aliceblue;
+        border-bottom: 2px groove white;
+        border-top: 2px groove white;
+    }
+    .login_side {
+        margin-top: 50px;
+        height:450px;
+        padding: 2em 2em;
+        width: 25%;
+        margin-right: 0%;
+        background-color: aliceblue;
+        border-bottom: 2px groove white;
+        border-right: 2px groove white;
+        border-top: 2px groove white;
+    }
+
+        .login_side label {
+            font-size:15px;
+            color:rgba(94, 23, 23, 0.746);
+            margin-top: 1.8em;
+        }
+        .input_field {
+            font-size: 17px;
+            width: 23em;
+            height: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 1.8em;
+        }
+        #password_input {
+            margin-bottom: 0;
+        }
+        .show_password {
+            font-size: 100px;
+            margin-bottom: 2em;
+        }
+        .forgot_password a {
+            color:crimson;
+            font-size: 13px;
+            text-decoration:underline;
+            margin-top: 2em;
+        }
+
+        .login_button {
+            margin-top: 5em;
+            float:right;
+            margin-right: 80px;
+            padding: 0.5em 6em;
+            font-size: 16px;
+            color:white;
+            font-weight: 900;
+            background-color: darkred;
+            border-radius: 5px;
+        }
+ul {
+    list-style-type:circle;
+    list-style-position: outside;
+}
